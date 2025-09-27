@@ -201,7 +201,7 @@ for(int i=0;i<borrower.size();i++){
     borrowed_book.erase(borrowed_book.begin()+i);
     cout << "Book returned successfully ! "<<endl;
     cout<<"   Hope you enjoyed reading the book ! "<<endl;
-    return; // exit after removing the right entry
+    return; 
     }
 }
 if(!found)
@@ -214,4 +214,5 @@ void theborrowers(){
 return;
     }else for(i=0;i<borrower.size();i++)
     cout<<i+1<<" - "<<borrower[i]<<endl;
+
 }
